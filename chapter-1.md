@@ -1,10 +1,8 @@
 #Chapter 1: The Basics
 
-====
-
 1. `%`, `&`, `*`, `+`, `-`, `/`, `>`, `>=`, `>>`, `>>>`, `^`, `asInstanceOf`, `isInstanceOf`, `toByte`, `toChar`, `toDouble`, `toFloat`, `toInt`, `toLong`, `toShort`, `toString`, `unary_+`, `unary_-`, `unary_~`, `|`
 
-2. 
+2. Codes: 
 
   ````scala 
 math.sqrt(3)
@@ -34,8 +32,9 @@ def drop(n: Int): WrappedString -> Selects all elements except first n ones.
 def takeRight(n: Int): String -> Selects last n elements.
 def dropRight(n: Int): WrappedString -> Selects all elements except last n ones.
   ````
-Compare to `substring`, `take` and `drop` are native scala methods, which means that when those methods are called, implicit conversion from `StringOps` to `String` will not performed by method `unaugmentString` in `scala.Predef`. 
-I think those methods are always prefered comparing to `substring`.
+
+  Compare to `substring`, `take` and `drop` are native scala methods, which means that when those methods are called, implicit conversion from `StringOps` to `String` will not performed by method `unaugmentString` in `scala.Predef`. 
+  I think those methods are always prefered comparing to `substring`.
 
 ----
 
