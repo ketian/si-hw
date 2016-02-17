@@ -13,9 +13,9 @@ def signum(x: Int): Int = if (x>0) 1 else if (x<0) -1 else 0
 4. Code:
 
   ```scala
-# no loop
+// no loop
 (1 to 10).map((i: Int) => println(i))
-# scala for loop
+// scala for loop
 for (i <- 1 to 10) println(i)
   ```
 
@@ -42,11 +42,11 @@ x
 8. `product`:
 
   ```scala
-# no recursion
+// no recursion
 def product(s: String): Int = s.foldLeft(1)(_*_)
-# recursion
+// recursion
 def product(s: String): Int = if (s.isEmpty) 1 else s.head * product(s.tail)
-# tail recursion
+// tail recursion
 def product(s: String): Int = {
   def rec(s: String, ans: Int): Int = 
     if (s.isEmpty) ans
