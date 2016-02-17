@@ -14,7 +14,7 @@
 
   ```scala
   // no loop
-  (1 to 10).map((i: Int) => println(i))
+  (1 to 10).map(println(_))
   // scala for loop
   for (i <- 1 to 10) println(i)
   ```
@@ -22,7 +22,7 @@
 5. `countdown`:
 
   ```scala
-  def countdown(n: Int): Unit = (n.to(0, -1)).map((i: Int) => println(i))
+  def countdown(n: Int): Unit = (n to (0, -1)).map(println(_))
   ```
 
 6. `for` loop to compute product:
