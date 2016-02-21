@@ -119,8 +119,8 @@
   )
   ```
 
-10. `"Hello".zip("World")` generates `scala.collection.immutable.IndexedSeq[(Char, Char)] = Vector((H,W), (e,o), (l,r), (l,l), (o,d))`. 
-
+10. `"Hello".zip("World")` generates `scala.collection.immutable.IndexedSeq[(Char, Char)] = Vector((H,W), (e,o), (l,r), (l,l), (o,d))`. Usage: using the 2nd string as a ciper to encrypt the 1st string.
 ----
 
 2016-02-19
+
