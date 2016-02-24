@@ -1,6 +1,6 @@
-# SI-HW
+# SI-HW: Scala for the Impatient - HomeWork
 
-Exercises of the book -- *Scala for the Impatient*.
+Solutions to exercises in the book.
 
 ----
 
